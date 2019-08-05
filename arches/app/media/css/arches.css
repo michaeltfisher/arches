@@ -366,11 +366,6 @@ dl.inline-flex dd {
     border-left: 1px solid #ddd;
 }
 
-.card-checkbox {
-    height: 1.25em;
-    width: 1.25em;
-}
-
 input[type="checkbox"] {
     width: 30px;
     height: 30px;
@@ -7080,12 +7075,6 @@ ul div .card-tree-list span .card-tree-list-item .card-tree-list-icon {
     padding-bottom: 0px;
 }
 
-.provisional-edit-history-filter .calendar-label {
-    font-size: 12px;
-    color: inherit;
-    padding: 5px;
-}
-
 .provisional-review-pending {
     padding: 2px 10px 3px 10px;
     background: #F5BB25;
@@ -10704,11 +10693,6 @@ ul.pagination {
 
 #calendar .chosen-container-single .chosen-single div b:before {
     vertical-align: -70%;
-}
-
-.calendar-title {
-    color: #fff;
-    font-weight: 600;
 }
 
 .time-search-calendar-panel {
