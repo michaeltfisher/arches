@@ -93,20 +93,6 @@ dl.inline-flex dd {
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
-.arches-navbar {
-    background: #fff;
-}
-
-.navbar-content.arches-navbar {
-    margin-left: 0px;
-}
-
-.arches-user-img {
-    margin-top: 5px;
-    margin-left: 5px;
-    margin-right: 10px;
-}
-
 .main-navbar-item {
     width: 48px;
     border-right-width: 0px;
@@ -2546,36 +2532,6 @@ a.select2-search-choice-close {
     justify-content: space-between;
 }
 
-.account-card-main {
-    width: 220px;
-    position: absolute;
-    left: 17px;
-    top: 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-}
-
-.account-card-main a {
-    padding-left: 4px;
-}
-
-.account-card-subtitle {
-    width: 190px;
-    position: absolute;
-    left: 17px;
-    top: 25px;
-    padding: 4px 2px 3px 0px;
-    color: #8ba2b9;
-    font-size: 12px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
 .permissions-node-row:nth-child(even) {
     background: #f9f9f9;
 }
@@ -3129,40 +3085,13 @@ input[type="search"] {
     background: #2d3c4b;
 }
 
-.arches-mainnav-container {
-    background: #3a3f44;
-}
-
 .arches-form {
     background-color: #ebeef0;
     padding: 20px 0 40px;
 }
 
-.aside-title {
-    font-size: 17px;
-    float: left;
-    margin-left: 5px;
-    text-align: left;
-    padding-top: 15px;
-}
-
 #aside-container #aside .nav-tabs li:not(active) a {
     padding: 20px 0;
-}
-
-a.aside-title.arches-aside-title {
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 0;
-    padding: 15px 0 0 5px;
-}
-
-li.aside-li {
-    height: 58px;
-}
-
-li.aside-li:hover {
-    background: #123;
 }
 
 ul.nav.nav-tabs.nav-justified {
@@ -3186,34 +3115,10 @@ ul.nav.nav-tabs.nav-justified {
     width: 286px;
 }
 
-.arches-form-container {
-    overflow-y: scroll;
-    height: 100vh;
-    overflow-x: hidden;
-    position: absolute;
-    top: 40px;
-    left: 335px;
-    right: -15px;
-    padding-bottom: 50px;
-    padding-left: 0;
-}
-
 .form-page {
     background-color: #e7ebee;
     width: 100%;
     padding: 20px 20px 100px 5px;
-}
-
-.arches-help-container {
-    position: absolute;
-    left: 100%;
-    width: 300px;
-    right: 0;
-    padding-bottom: 50px;
-    padding-left: 0;
-    overflow-y: scroll;
-    height: 100vh;
-    overflow-x: hidden;
 }
 
 .widget-design {
@@ -3470,10 +3375,6 @@ ul.nav.nav-tabs.nav-justified {
     border-width: 0;
 }
 
-.arches-user-icon-col {
-    width: 40px;
-}
-
 .widget-display-container {
     position: relative;
     left: 305px;
@@ -3501,20 +3402,6 @@ ul.nav.nav-tabs.nav-justified {
     margin-top: 0;
     margin-bottom: 0;
     padding: 20px 10px 10px 5px;
-}
-
-.arches-widget-label-vertical {
-    margin-bottom: 5px;
-    font-size: 15px;
-    text-align: left;
-    padding: 0 0 0 20px;
-}
-
-.arches-widget-label-horizontal {
-    margin-bottom: 5px;
-    font-size: 15px;
-    text-align: right;
-    padding: 0 0 0 20px;
 }
 
 .widget-display-footer {
@@ -4209,28 +4096,6 @@ ul .collapse li:first-of-type {
 
 ul .collapse li:last-of-type {
     height: 35px;
-}
-
-.arches-panel-header {
-    font-size: 1.6em;
-    padding-left: 25px;
-    border-right: 1px solid #ddd;
-}
-
-.arches-panel-icon {
-    height: 42px;
-    width: 42px;
-    padding-left: 11px;
-    padding-top: 11px;
-    transform: translate(0px, 7px);
-    color: #666;
-}
-
-.arches-panel-subtitle {
-    padding-left: 75px;
-    margin-top: -29px;
-    color: #999;
-    font-size: 11px;
 }
 
 .resource-grid-item {
@@ -5193,20 +5058,6 @@ input.cmn-toggle-yes-no:checked+label:after {
 
 .arches-login div .cls-brand:after {
     background: rgb(236,238,241);
-}
-
-.arches-login-header {
-    background-color: transparent;
-    /*margin-top: 25px;*/
-    color: rgb(141,144,149);
-    float: none;
-    display: inline-block;
-    line-height: 22px;
-    font-size: 28px;
-    font-weight: 600;
-    padding: 5px;
-    vertical-align: middle;
-    width: auto;
 }
 
 .cls-content.arches-signin {
@@ -6270,12 +6121,6 @@ ul.jqtree_common li.jqtree-folder {
     margin-top: -20px;
     margin-left: -12px;
     color: #579ddb;
-}
-
-.account-edit-btn {
-    position: absolute;
-    top: 0px;
-    right: 60px;
 }
 
 .account-tips {
@@ -7960,10 +7805,6 @@ ul .card-tree-list a .node-subname {
     color: #666;
 }
 
-.arches-admin-card-shim {
-    margin-top: -60px;
-}
-
 .cardinality-form {
     padding: 7px;
 }
@@ -7989,7 +7830,7 @@ li.search-field {
     width: 300px;
 }
 
-li.aside-li.active:hover, .library-dark .tab-content {
+.library-dark .tab-content {
     background: #37495b;
 }
 
@@ -8061,7 +7902,7 @@ li.aside-li.active:hover, .library-dark .tab-content {
     color: #ddd;
 }
 
-.arches-tab, div.tab-content.arches-tab, #aside-container #aside .tab-content, .arches-tab, div.tab-content.arches-tab, #aside-container #aside .tab-content, .arches-tab, div.tab-content.arches-tab, #aside-container #aside .tab-content {
+#aside-container #aside .tab-content, #aside-container #aside .tab-content, #aside-container #aside .tab-content {
     padding-top: 0;
 }
 
@@ -8618,12 +8459,6 @@ div.row.widget-wrapper {
     background: #fcfcfc;
 }
 
-.add-card-icon-placement {
-    position: absolute;
-    top: 210px;
-    left: 33%;
-}
-
 .rr-card-icon-placement {
     position: absolute;
     top: 210px;
@@ -8818,18 +8653,6 @@ a.mega-dropdown-toggle.disabled {
     border-left: 5px solid #20ce05;
 }
 
-.add-card-icon {
-    color: #fff;
-    height: 56px;
-    width: 56px;
-    transform: translate(0, 5px);
-}
-
-.add-card-message-placement {
-    margin-top: 325px;
-    width: 100%;
-}
-
 .rr-card-message-placement {
     margin-top: 280px;
     width: 100%;
@@ -8868,14 +8691,6 @@ a.mega-dropdown-toggle.disabled {
     padding-right: 0px;
     font-weight: 300;
     color: #999;
-}
-
-.add-card-message-subtitle {
-    margin-top: -5px;
-    font-size: 13px;
-    color: #aaa;
-    padding-right: 20px;
-    line-height: 1.1em;
 }
 
 .dragged-card-panel {
@@ -10869,7 +10684,7 @@ a.search-query-link-captions:focus {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    max-width: 400px; 
+    max-width: 400px;
     border-right: solid 1px #dcdcdc;
 }
 
