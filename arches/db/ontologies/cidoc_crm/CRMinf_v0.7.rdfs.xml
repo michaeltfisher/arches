@@ -81,6 +81,14 @@ Encoding Rules:
         <rdfs:subClassOf rdf:resource="I5_Inference_Making"/>
     </rdfs:Class>
     
+    <rdfs:Class rdf:about="I6_Belief_Value">
+        <rdfs:comment>
+            This class comprises the any encoding of the value of the turth of an I2 Belief. It may be expressed in terms of discrete logic, modal logic, probability, fuzziness, or other adequate representational system.
+            A minimum requirement of flexibility is for 3 values: True; False; Unknown.
+</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E59_Primitive_Value"/>
+    </rdfs:Class>
+    
     <rdfs:Class rdf:about="I7_Belief_Adoption">
         <rdfs:comment>
             This class comprises the action of an E39 Actor adopting a particular instance of I2 Belief to create a new instance of I2 Belief that shares some of the same propositions in the original I4 Proposition Set and the associated I6 Belief Value.
